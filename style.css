@@ -1,0 +1,93 @@
+.plus {
+    background-image: url("image/plus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+}
+
+.minus {
+    background-image: url("image/minus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+}
+
+.hero {
+    margin-top: 100px;
+    position: relative;
+    height: 200px;
+    width: 80px;
+    left: 100px;
+}
+
+.hero__head {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    position: absolute;
+    top: -50px;
+}
+
+.hero__hand--left {
+    background-color: red;
+    width: 20px;
+    height: 60px;
+    position: absolute;
+    left: -20px;
+    border: none;
+}
+
+.hero__hand--right {
+    background-color: red;
+    width: 20px;
+    height: 60px;
+    position: absolute;
+    border: none;
+    right: 10px;
+}
+
+.hero__body {
+    background-color: blue;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    border: none;
+}
+
+.hero__leg--left {
+    background-color: black;
+    width: 20px;
+    height: 60px;
+    bottom: 80px;
+    position: absolute;
+    border: none;
+}
+
+.hero__leg--right {
+    background-color: black;
+    width: 20px;
+    height: 60px;
+    bottom: 80px;
+    right: 30px;
+    position: absolute;
+    border: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
